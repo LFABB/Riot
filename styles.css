@@ -1,0 +1,73 @@
+#header-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#left-w {
+    display: inline-block;
+    position: absolute;
+    top: 3vh;
+    left: 2vw;
+    border: 1px solid yellow;
+}
+
+#left-w-comp { 
+    display: inline-block;  
+    width: 160; 
+    height: 45;
+}
+
+#center-w {
+    display: inline-block;
+    position: absolute;
+    width: 1000;
+    height: 45;
+    border: 1px solid yellow;
+}
+
+#center-w-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#center-w-comp {
+    display: inline-block;
+    position: absolute;
+    width: 1;
+    height: 1;
+}
+
+#center-w-comp-inside {
+    display: inline-block;
+}
+
+#wcumvid {
+    width: 100%;
+    pointer-events: none;
+}
+
+#wupdates {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+body > header{
+    position: fixed;
+    width: 100vw;
+    height: 200px;
+    border: 1px solid pink;
+}
+
+body > main {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
