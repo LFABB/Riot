@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 #header-wrapper {
     position: relative;
     width: 100%;
@@ -7,40 +9,39 @@
 #left-w {
     display: inline-block;
     position: absolute;
-    top: 3vh;
+    top: 2vh;
     left: 2vw;
     border: 1px solid yellow;
 }
 
 #left-w-comp { 
     display: inline-block;  
-    width: 160; 
-    height: 45;
+    width: 160px; 
+    height: 45px;
 }
 
 #center-w {
     display: inline-block;
     position: absolute;
-    width: 1000;
-    height: 45;
+    top: 2vh;
+    left: 14vw;
+    font-size: 0px;
     border: 1px solid yellow;
 }
 
-#center-w-wrapper {
-    position: relative;
-    width: 100%;
-    height: 100%;
+.center-w-comp {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 450;
+    line-height: 3px;
+    padding: 20px;
+    border: 1px solid green;
 }
 
-#center-w-comp {
-    display: inline-block;
-    position: absolute;
-    width: 1;
-    height: 1;
-}
-
-#center-w-comp-inside {
-    display: inline-block;
+.center-w-comp-inside {
+    font-family: Rubik;
+    color: white;
+    text-decoration: none;
 }
 
 #wcumvid {
@@ -60,8 +61,8 @@ body {
 
 body > header{
     position: fixed;
-    width: 100vw;
-    height: 200px;
+    width: 98.8vw;
+    height: 80px;
     border: 1px solid pink;
 }
 

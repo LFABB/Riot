@@ -2,12 +2,20 @@
   "name": "riot",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+		"prestart": "::Loading and initialyzing...",
+		"start": "",
+		"poststart": "::Keep it like that!",
+		"build": "npx parcel build index.html",
+		"predev": "::Loading and initialyzing...",
+		"dev": "npx parcel index.html --open",
+		"postdev": "::Keep it like that!",
+		"clean": "rmdir /s /q dist .parcel-cache",
+    "test": "echo Project loaded!"
   },
-  "keywords": [],
+  "keywords": ["frontend", "javascript", "web", "vanilla"],
   "author": "MasterCoder",
-  "license": "ISC",
-  "description": "A recreation of Riot Games homepage...",
+  "license": "",
+  "description": "A handmade recreation of Riot Games homepage...",
   "devDependencies": {
     "parcel": "^2.13.3"
   }
