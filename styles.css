@@ -129,15 +129,33 @@
     padding: 17px;
 }
 
-#wcumvid {
+.blocks {
+    display: block;
+    position: relative;
+    top: -37vh;
     width: 100%;
-    pointer-events: none;
 }
 
-#wupdates {
-    background-color: black;
+#alpha-layer {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    width: 98.8vw;
+    height: 87vh;
+}
+
+#wcumvid {
     width: 100%;
-    height: 100%;
+    display: block;
+    position: relative;
+    top: -16vh;
+    pointer-events: none;
+    z-index: -1;
+}
+
+#wupdates-container {
+    height: 150vh;
+    background-color: black;
 }
 
 body {
@@ -148,10 +166,12 @@ body > header{
     position: fixed;
     width: 98.8vw;
     height: 80px;
+    z-index: 1000;
     border: 1px solid pink;
 }
 
 body > main {
+    position: relative;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
