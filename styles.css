@@ -140,7 +140,7 @@
     background-color: rgba(0, 0, 0, 0.35);
     position: absolute;
     top: 0;
-    width: 98.8vw;
+    width: 100%;
     height: 87vh;
 }
 
@@ -154,23 +154,60 @@
 }
 
 #wupdates-container {
+    width: 100%;
     height: 150vh;
     background-color: black;
 }
 
-body {
-    margin: 0;
+#updates-container-big{
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    left: 70px;
+    width: 800px;
+}
+
+#wupdates-container-buttons{
+    display: inline-block;
+    position: absolute;
+    top: 230px; 
+    right: 110px;
+    border: 1px solid pink;
+}
+
+#wgames{
+    width: 100%;
+    height: 300vh;
+    background-color: hsl(0, 0%, 11%);
+}
+
+#whiring{
+    width: 100%;
+    height: 80vh;
+    background-color: hsl(0, 0%, 90%);
+}
+
+#winfo{
+    width: 100%;
+    height: 30vh;
+    background-color: hsl(0, 0%, 11%);
 }
 
 body > header{
     position: fixed;
-    width: 98.8vw;
+    width: 100%;
     height: 80px;
     z-index: 1000;
     border: 1px solid pink;
 }
 
-body > main {
+body > main{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
     position: relative;
     width: 100vw;
     height: 100vh;
