@@ -34,8 +34,31 @@ base.querySelector("p").style.margin = "0"
 base.style.border = "1px solid blue"
 
 Cloner(base, "second");
-document.getElementById("second").querySelector("img").src = "assets/images/wupdates2.png"
+document.getElementById("second").querySelector("p").innerHTML = "Actualización de marzo de 2025 | Dev Snack Shop - Legends of Runeterra"
+document.getElementById("second").querySelector("p").style.display = "-webkit-box"
+document.getElementById("second").querySelector("p").style.webkitBoxOrient = "vertical"
+document.getElementById("second").querySelector("p").style.webkitLineClamp = "2"
+document.getElementById("second").querySelector("p").style.overflow = "hidden"
+document.getElementById("second").querySelector("p").style.textOverflow = "ellipsis"
+document.getElementById("second").querySelector("p").style.height = "45px"
+document.getElementById("second").querySelector("p").style.width = "236px"
 
 Cloner(base, "third");
+document.getElementById("third").querySelector("p").innerHTML = "AMANECE // Tráiler de agente de Waylay - VALORANT"
+document.getElementById("third").querySelector("p").style.display = "-webkit-box"
+document.getElementById("third").querySelector("p").style.webkitBoxOrient = "vertical"
+document.getElementById("third").querySelector("p").style.webkitLineClamp = "2"
+document.getElementById("third").querySelector("p").style.overflow = "hidden"
+document.getElementById("third").querySelector("p").style.textOverflow = "ellipsis"
+document.getElementById("third").querySelector("p").style.height = "45px"
+document.getElementById("third").querySelector("p").style.width = "236px"
 
 Cloner(base, "fourth");
+document.getElementById("fourth").querySelector("p").innerHTML = "¡LLEGÓ EL RECLUTAMIENTO VALIENTE TOTAL! First Stand Tournament 2025"
+document.getElementById("fourth").querySelector("p").style.display = "-webkit-box"
+document.getElementById("fourth").querySelector("p").style.webkitBoxOrient = "vertical"
+document.getElementById("fourth").querySelector("p").style.webkitLineClamp = "2"
+document.getElementById("fourth").querySelector("p").style.overflow = "hidden"
+document.getElementById("fourth").querySelector("p").style.textOverflow = "ellipsis"
+document.getElementById("fourth").querySelector("p").style.height = "45px"
+document.getElementById("fourth").querySelector("p").style.width = "236px"
