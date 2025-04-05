@@ -31,7 +31,6 @@ base.querySelector("p").style.top = "16px"
 base.querySelector("p").style.left = "16px"
 base.querySelector("p").style.width = "200px"
 base.querySelector("p").style.margin = "0"
-base.style.border = "1px solid blue"
 
 Cloner(base, "second");
 document.getElementById("second").querySelector("p").innerHTML = "Actualización de marzo de 2025 | Dev Snack Shop - Legends of Runeterra"
