@@ -1,18 +1,27 @@
 {
   "name": "riot",
   "version": "1.0.0",
+  "type": "module",
+  
   "scripts": {
-		"prestart": "::Loading and initialyzing...",
-		"start": "",
-		"poststart": "::Keep it like that!",
-		"build": "npx parcel build index.html",
-		"predev": "::Loading and initialyzing...",
-		"dev": "npx parcel index.html --open",
-		"postdev": "::Keep it like that!",
-		"clean": "rmdir /s /q dist .parcel-cache",
-    "test": "echo Project loaded!"
+    "prestart": "::Loading and initialyzing...",
+    "start": "",
+    "poststart": "::Keep it like that!",
+    "build": "npx parcel build index.html",
+    "predev": "::Loading and initialyzing...",
+    "dev": "npx parcel index.html --open",
+    "postdev": "::Keep it like that!",
+    "clean": "rmdir /s /q dist .parcel-cache",
+    "test": "jest"
   },
-  "keywords": ["frontend", "javascript", "web", "vanilla"],
+
+  "keywords": [
+    "frontend",
+    "javascript",
+    "web",
+    "vanilla"
+  ],
+
   "author": "MasterCoder",
   "license": "",
   "description": "A handmade recreation of Riot Games homepage...",
